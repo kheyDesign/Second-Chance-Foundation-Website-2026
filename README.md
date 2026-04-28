@@ -63,7 +63,7 @@ This submission constitutes the initial proposal and planning phase. Development
 * Avvale, 2024. *Website design for animal rescue businesses*. [online] Available at: <https://avvale.co.uk/pages/website-design-creation-for-animal-rescue-businesses> [Accessed 11 April 2026].
 * Brick Marketing, 2024. *Nonprofit animal rescue association case study*. [online] Available at: <https://www.brickmarketing.com/case-study-nonprofit-animal-rescue-association> [Accessed 11 April 2026].
 * Gelfand Design, 2025. *Turning a volunteer-built site into a rescue powerhouse*. [online] Available at: <https://gelfanddesign.com> [Accessed 11 April 2026].
-* Pratt Institute, 2023. *Rescue website redesign case study*. [online] Available at: <https://ixd.prattsi.org> [Accessed 11 April 2026].
+* Pratt Institute. (2023). Community Service and the Community Engagement Board. Pratt Institute. Available at: <https://www.pratt.edu> [Accessed 11 April 2026].
 * Project6, 2024. *Website redesign for local SPCA nonprofit*. [online] Available at: <https://www.project6.com> [Accessed 11 April 2026].
 * Societ, 2024. *A dog rescue gets a new website with benefits*. [online] Available at: <https://www.societ.com> [Accessed 11 April 2026].
 
