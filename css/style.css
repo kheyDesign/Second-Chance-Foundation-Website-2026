@@ -84,7 +84,7 @@ nav .left a {
   height: 100vh;
   background: 
     linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
-    url('../img/DESIGNS/Copilot_20260514_195920.png') no-repeat center center/cover;
+    url('/img/DESIGNS/Copilot_2026051') no-repeat center center/cover;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -174,6 +174,22 @@ section p {
   border-radius: 6px;
   font-weight: 600;
   transition: none;  
+}
+
+.btn2 {
+  display: inline-block;
+  background-color: #3a4e62;
+padding: 12px 24px;
+text-decoration: none;
+border: 2px solid #3a4e62;
+border-radius: 6px;
+font-weight: 600;
+transition: all 0.3s ease;
+}
+
+.btn2:hover {
+  background-color: #3a4e62;
+  color: #fff;
 }
 
 /* HOVER EFFECT */
