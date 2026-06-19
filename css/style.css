@@ -1,42 +1,39 @@
-root {
+/* ROOT VARIABLES */
+:root {
   --text-color: #222;
   --background-color: #fdfdfd;
   --link-color: #0077cc;
   --accent-color: #a59120;
 }
 
-/* THE RESET */
+/* RESET */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-
 html {
   scroll-behavior: smooth;
 }
 
-
+/* BODY */
 body {
   font-family: 'Montserrat', sans-serif;
   background-color: var(--background-color);
   color: var(--text-color);
   line-height: 1.6;
-
-    /* Fade-in effect */
   opacity: 0; 
   animation: fadeIn 1.5s ease-in forwards;
 }
 
-/* fade-in */
+/* FADE-IN ANIMATION */
 @keyframes fadeIn {
   from { opacity: 0; }
   to { opacity: 1; }
 }
 
-/* THE NAVBAR */
-
+/* NAVBAR */
 nav {
   display: flex;
   justify-content: space-between;
@@ -52,7 +49,7 @@ nav img {
   box-shadow: none;  
 }
 
-/* THE NAV LINKS */
+/* NAV LINKS */
 nav a {
   color: #fff;            
   text-decoration: none;   
@@ -60,36 +57,43 @@ nav a {
   font-weight: 600;
   padding: 8px 14px;
   border-radius: 6px;
-  transition: background 0.3s ease, color 0.3s ease;
+  border: 2px solid transparent;
+  transition: background 0.3s ease, color 0.3s ease, border 0.3s ease;
 }
 
 nav a:hover {
-  background: #fff;         
-  color: #3a4e62;              
+  background: #ffffff03;
+  color: #fff#3a4e62;  
+  border:2px solid #fff;                     
 }
 
-nav a:active {
-  background-color: #fff;
-  color: #3a4e62;
+nav a.active {
+  background: #3a4e62;
+  color: #f3f5f7;
+  border: 2px solid #fff;
+  
 }
 
-/* NAV Logo */
+nav a.active:hover {
+  background: #3a4e62;
+  color: #f3f5f7;
+  border: 2px solid #fff;
+  
+}
+
+/* NAV LOGO */
 nav .left a {
   background: none;
   padding: 0;
 }
 
-
-  
-  
-
-/* THE HERO SECTION */
+/* HERO SECTION */
 #hero {
   position: relative;
   height: 100vh;
   background: 
     linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
-    url('/img/DESIGNS/Copilot_2026051') no-repeat center center/cover;
+    url('../img/DESIGNS/Copilot_20260514_195920.png') no-repeat center center/cover;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -112,46 +116,49 @@ nav .left a {
   margin-bottom: 30px;
 }
 
-/* THE CALL TO ACTION Buttons */
+/* HERO BUTTONS */
 .hero-buttons {
   display: flex;
   gap: 20px;
   justify-content: center;
 }
 
+/* PRIMARY BUTTON */
 .btn {
   display: inline-block;
   padding: 12px 24px;
-  background: var(--accent-color);
-  color: #3a4e62;
+  background-color: #3a4e62;       
+  color: #fff;           
+  border: none;
   border-radius: 6px;
   font-weight: 600;
-  transition: background 0.3s ease;
   text-decoration: none;
+  transition: background 0.3s ease, color 0.3s ease, transform 0.3s ease;
 }
 
 .btn:hover {
-  background: #a49a63;
+  background-color: #fff;           
+  color: #3a4e62;                     
+  border: 2px solid #3a4e62;     
 }
 
-.hero-section a:hover {
-  background: #c9c090;
-}
-
-/* THE BUTTON STYLE */
-.btn {
+/* SECONDARY BUTTON */
+.btn2 {
   display: inline-block;
+  background-color: #fff;
+  color: #3a4e62;
   padding: 12px 24px;
-  background: #3a4e62;       
-  color: #f9f6f6;           
-  border: none;
-  font-weight: 600;
   text-decoration: none;
-  transition: background 0.5s ease, color 0.5s ease, transform 0.5s ease, ;
+  border: 2px solid #3a4e62;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: all 0.3s ease;
 }
 
-
-
+.btn2:hover {
+  background-color: #3a4e62;
+  color: #fff;
+}
 
 /* SECTIONS */
 section {
@@ -168,40 +175,6 @@ section p {
   max-width: 800px;
   margin: 0 auto 20px;
 }
-
-.btn {
-  display: inline-block;
-  background-color: #3a4e62;   
-  color: #fff;                
-  padding: 12px 24px;
-  text-decoration: none;       
-  border: none;               
-  border-radius: 6px;
-  font-weight: 600;
-  transition: none;  
-}
-
-.btn2 {
-  display: inline-block;
-  background-color: #3a4e62;
-padding: 12px 24px;
-text-decoration: none;
-border: 2px solid #3a4e62;
-border-radius: 6px;
-font-weight: 600;
-transition: all 0.3s ease;
-}
-
-.btn2:hover {
-  background-color: #3a4e62;
-  color: #fff;
-}
-
-/* HOVER EFFECT */
-.btn:hover {
-  background-color: #fff;           
-  color: #000;                     
-  border: 2px solid #3a4e62;     
 
 /* SUCCESS STORIES */
 .gallery {
@@ -230,7 +203,7 @@ transition: all 0.3s ease;
   margin-bottom: 15px;
 }
 
-/* CTA */
+/* CTA SECTION */
 #cta {
   background: #eef0f1;
   color: #030000;
@@ -259,7 +232,7 @@ footer {
   text-align: center;
 }
 
-/* RESPONSIVE(WITH DIFFERE MOBILES) */
+/* RESPONSIVE */
 @media (max-width: 992px) {
   .hero-section {
     flex-direction: column;
