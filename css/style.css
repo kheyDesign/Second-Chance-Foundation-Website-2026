@@ -68,6 +68,11 @@ nav a:hover {
   color: #3a4e62;              
 }
 
+nav a:active {
+  background-color: #fff;
+  color: #3a4e62;
+}
+
 /* NAV Logo */
 nav .left a {
   background: none;
