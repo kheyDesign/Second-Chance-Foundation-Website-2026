@@ -312,5 +312,75 @@ footer {
   }
 }
 
+/* Lightbox overlay */
+.lightbox-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+/* Enlarged image */
+.lightbox-overlay img {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(255,255,255,0.3);
+  cursor: pointer;
+}
+
+/*ENQUIRY FORM*/
+
+#enquiry-form {
+  background-color: #3a4e62; 
+  color: white;              
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Style labels and headings inside the form */
+#enquiry-form label,
+#enquiry-form legend,
+#enquiry-form h1,
+#enquiry-form p {
+  color: white;
+}
+
+/* Style input fields, select dropdown, and textarea */
+#enquiry-form input,
+#enquiry-form select,
+#enquiry-form textarea {
+  background-color: white;
+  color: black;
+  border: 1px solid #ccc;
+  padding: 8px;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 500px;
+  box-sizing: border-box;
+}
+
+/* Style buttons */
+#enquiry-form button {
+  background-color: white;
+  color: #3a4e62;
+  border: 2px solid #3a4e62;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#enquiry-form button:hover {
+  background-color: #3a4e62;
+  color: white;
+}
 
 
