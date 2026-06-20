@@ -279,8 +279,8 @@ footer {
 
 /*image size*/ 
 .mission-image img{
-  max-width: 350px;
-  width: 100%;
+  max-width: 100%;
+  width: 600PX;
   height: auto;
   border-radius: 10px;
 }
