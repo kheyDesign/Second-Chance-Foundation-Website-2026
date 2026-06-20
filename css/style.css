@@ -384,3 +384,46 @@ footer {
 }
 
 
+/* CONTACT FORM*/
+#contact-form {
+  background-color: #3a4e62;
+  color: white;
+  padding: 40px 20px;
+  border-radius: 0;
+  max-width: 100%;
+  margin: 0;
+}
+
+#contact-form label,
+#contact-form legend,
+#contact-form h3,{
+color : white;
+}
+
+#contact-form input,
+#contact-form textarea {
+  background-color: white;
+  color: black;
+  border: 1px solid #ccc;
+  padding: 8px;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 500px;
+  box-sizing: border-box;
+}
+
+#contact-form button {
+  background-color: white;
+  color: #3a4e62;
+  border: 2px solid #3a4e62;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#contact-form button:hover {
+  background-color: #3a4e62;
+  color: white;
+}
